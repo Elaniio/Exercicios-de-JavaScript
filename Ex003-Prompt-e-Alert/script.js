@@ -4,5 +4,5 @@ function perguntarNome() {
     alert("Você não informou um nome.")
     return
   }
-  alert(`Olá, ${nome}! Seja bem-vindo(a)!`)
+  alert('Olá, ' + nome + '! Seja bem-vindo(a)!');
 }
