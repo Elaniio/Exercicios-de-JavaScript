@@ -1,4 +1,8 @@
 function perguntarNome() {
-  let nome = prompt("Qual é o seu nome?")
-  alert("Olá, ${nome}! Seja bem-vindo(a)!")
+  const nome = prompt("Qual é o seu nome?")
+  if (!nome) {
+    alert("Você não informou um nome.")
+    return
+  }
+  alert(`Olá, ${nome}! Seja bem-vindo(a)!`)
 }
